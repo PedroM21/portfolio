@@ -1,0 +1,33 @@
+.form-container {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.input-container {
+  width: 100vh;
+  margin: 3rem;
+}
+
+.input-container input,
+.input-container textarea {
+  width: 50%;
+  color: white;
+  padding: 0.8rem;
+  background: #07182e;
+  border-radius: 10px;
+  border-style: none;
+  box-shadow: inset 2px 5px 10px #010f22;
+}
+
+.input-container textarea {
+  width: 100%;
+}
+
+.submit-btn {
+  position: absolute;
+  right: 25%;
+  bottom: -5%;
+}

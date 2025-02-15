@@ -1,0 +1,17 @@
+.section-header {
+  font-size: 4vw;
+  text-align: center;
+  /* border-bottom: 4px solid rgb(255, 48, 255); */
+  color: white;
+  margin-top: 8rem;
+  margin-bottom: 2rem;
+}
+
+.summary-text {
+  color: white;
+  font-size: 1.5vw;
+  text-align: center;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  margin-bottom: 1rem;
+}
