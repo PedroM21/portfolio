@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 import proj1 from "./gifs/pkmgg.gif";
 import proj2 from "./gifs/e-com-site.gif";
 import proj3 from "./images/FormValid.png";
-import proj4 from "./images/placeholder-image.png";
+import proj4 from "./gifs/go-games.gif";
 
 function App() {
   return (
@@ -52,20 +52,18 @@ function App() {
         projImage1={proj3}
         projImage2={proj4}
         proj1Title="Form Validation"
-        proj2Title="Placeholder Text"
+        proj2Title="Go Games"
         proj1Desc="This was a project for my web technologies class. 
                     We developed a dynamic, user-friendly web page with smooth navigation. 
                     We also implemented secure login/register functionality, allowing users to create accounts. 
                     To ensure data security we integrated encryption protocols for sensitive data."
-        proj2Desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non 
-                    auctor velit, sed venenatis nisl. Vestibulum cursus urna sed lobortis aliquet. 
-                    Aenean ornare auctor nisl, sed euismod lorem accumsan quis. Mauris lacus quam, 
-                    varius a posuere gravida, ullamcorper id velit. Morbi vitae nisi placerat purus 
-                    bibendum efficitur."
+        proj2Desc="A collection of small game projects I have worked on using Go and Raylib.
+                    Although the games are simple, they helped me learn go faster and deepened my understanding
+                    of certain key coding concepts like pointers, as well as the importance of clean, modular, and reusable code."
         proj1Tech="Technologies: HTML, CSS, JavaScript"
-        proj2Tech="Technologies: TBD"
+        proj2Tech="Technologies: Go, Raylib"
         proj1Link="https://github.com/PedroM21/FormValidation"
-        proj2Link="https://github.com/PedroM21?tab=repositories"
+        proj2Link="https://github.com/PedroM21/Go-Games"
       />
       <h1 id="contact" className="section-header">
         Contact Me
