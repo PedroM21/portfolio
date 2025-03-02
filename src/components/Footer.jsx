@@ -1,6 +1,5 @@
 import "../css/Footer.css";
 import github from "../images/icons8-github.svg";
-import indeed from "../images/icons8-indeed.svg";
 import linkedin from "../images/icons8-linkedin.svg";
 
 function Footer() {
@@ -14,7 +13,7 @@ function Footer() {
 
   return (
     <footer>
-      <div class="footer-container">
+      <div className="footer-container">
         <div className="socials">
           <h4>Socials</h4>
           <div className="icons">

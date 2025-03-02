@@ -1,16 +1,31 @@
-.section-header {
-  font-size: 4vw;
-  text-align: center;
-  color: white;
-  margin-top: 8rem;
-  margin-bottom: 2rem;
+/* ============ Buttons ============ */
+button {
+  width: 120px;
+  height: 60px;
+  color: #fff;
+  background: linear-gradient(to right, rgb(255, 48, 255) 3px, transparent 3px)
+      0 0,
+    linear-gradient(to left, rgb(0, 183, 255) 3px, transparent 3px) 100% 100%,
+    linear-gradient(to bottom, rgb(255, 48, 255) 3px, transparent 3px) 0 0,
+    linear-gradient(to top, rgb(0, 183, 255) 3px, transparent 3px) 100% 100%;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-color: #07182e;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  cursor: pointer;
 }
 
-.summary-text {
-  color: white;
-  font-size: 1.5vw;
-  text-align: center;
-  padding-left: 4rem;
-  padding-right: 4rem;
-  margin-bottom: 1rem;
+button:hover {
+  background: linear-gradient(to right, rgb(255, 48, 255) 3px, transparent 3px)
+      0 0,
+    linear-gradient(to left, rgb(0, 183, 255) 3px, transparent 3px) 100% 100%,
+    linear-gradient(to bottom, rgb(255, 48, 255) 3px, transparent 3px) 0 0,
+    linear-gradient(to top, rgb(0, 183, 255) 3px, transparent 3px) 100% 100%;
+  background-repeat: no-repeat;
+  background-size: 120px 120px;
+  background-color: #07182e;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  transition: 0.5s ease;
 }
