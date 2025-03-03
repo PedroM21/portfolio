@@ -122,6 +122,26 @@
   }
 }
 
+/* Smaller Laptop Device */
+@media screen and (max-width: 1280px) {
+  /* About Section */
+  .about-content p {
+    font-size: 16px;
+  }
+
+  /* Project Section */
+  .more-projects {
+    left: 30%;
+    bottom: 124px;
+    transform: translateX(30%);
+  }
+
+  /* Contact Section */
+  .contact-section {
+    height: 100vh;
+  }
+}
+
 /* Mobile Device */
 @media screen and (max-width: 768px) {
   .section-header {
@@ -149,10 +169,10 @@
 
   /* Project Section */
   .more-projects {
-    bottom: 85px;
-    right: 20%;
-    width: 80px;
-    height: 50px;
-    transform: translateX(20%);
+    bottom: 85px !important;
+    left: 200px !important;
+    width: 80px !important;
+    height: 50px !important;
+    transform: translateX(20%) !important;
   }
 }

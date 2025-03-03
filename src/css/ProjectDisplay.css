@@ -70,6 +70,18 @@
   }
 }
 
+/* Smaller Laptop Size */
+@media screen and (max-width: 1280px) {
+  .proj-display-title h1 {
+    font-size: 20px;
+    height: auto;
+  }
+
+  .proj-display-content p {
+    font-size: 12px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .project-display-container {
     flex-direction: column;

@@ -13,7 +13,6 @@
   align-items: center;
   color: #fff;
   font-size: 4rem;
-  border-bottom: #fff solid 4px;
   height: 20%;
   margin-bottom: 50px;
 }
@@ -33,4 +32,32 @@
   bottom: 10px;
   right: 50%;
   transform: translateX(50%);
+}
+
+/* Laptop Size */
+@media screen and (max-width: 1366px) {
+  .return-btn {
+    top: 30px;
+    right: 10%;
+    transform: translateX(10%);
+  }
+}
+
+/* Smaller Laptop Size */
+@media screen and (max-width: 1280px) {
+  .return-btn {
+    top: 30px;
+    right: 10%;
+    transform: translateX(10%);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .return-btn {
+    width: 80px;
+    height: 50px;
+    top: 90px;
+    right: 20%;
+    transform: translateX(50%);
+  }
 }
