@@ -7,7 +7,6 @@
 }
 
 .input-container {
-  width: 100vh;
   margin: 3rem;
 }
 
@@ -30,4 +29,25 @@
   position: absolute;
   right: 25%;
   bottom: -5%;
+}
+
+/* Mobile Device */
+@media screen and (max-width: 768px) {
+  .input-container input,
+  .input-container textarea {
+    width: 100%;
+    color: white;
+    margin: 0 auto;
+  }
+
+  .input-container textarea {
+    width: 100%;
+  }
+
+  .submit-btn {
+    position: absolute;
+    right: 50%;
+    bottom: -5%;
+    transform: translateX(50%);
+  }
 }

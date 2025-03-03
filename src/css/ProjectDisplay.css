@@ -31,7 +31,6 @@
 
 .proj-display-title h1 {
   width: 80%;
-  height: 20%;
   border-right: rgb(255, 255, 255) 8px solid;
   cursor: pointer;
 }
@@ -57,4 +56,51 @@
   position: absolute;
   bottom: 20px;
   left: 5%;
+}
+
+/* Laptop Size */
+@media screen and (max-width: 1366px) {
+  .proj-display-title h1 {
+    font-size: 24px;
+    height: auto;
+  }
+
+  .proj-display-content p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .project-display-container {
+    flex-direction: column;
+    width: 75%;
+    height: 80%;
+  }
+
+  .proj-display-title {
+    flex-direction: column;
+    width: 100%;
+    height: 40%;
+  }
+
+  .proj-display-title h1 {
+    width: 80%;
+    border: none;
+    cursor: pointer;
+  }
+
+  .proj-display-content {
+    width: 90%;
+    height: 60%;
+  }
+
+  .proj-display-content p {
+    font-size: 12px;
+  }
+
+  .project-link-btn {
+    bottom: 10px;
+    width: 80px;
+    height: 50px;
+  }
 }

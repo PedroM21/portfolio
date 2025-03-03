@@ -34,7 +34,6 @@ function HomePage() {
           <h1>Skills</h1>
           <AboutSkills />
         </div>
-
         <a href="#projects">
           <div className="scroll-down"></div>
         </a>

@@ -16,3 +16,28 @@
   border-radius: 10px;
   padding: 2rem;
 }
+
+/* Laptop Size */
+@media screen and (max-width: 1366px) {
+  .skills {
+    width: 60%;
+  }
+}
+
+/* Mobile Device */
+@media screen and (max-width: 768px) {
+  .skills-container {
+    margin: 0 2rem;
+  }
+
+  .skills {
+    width: 100%;
+    padding: 1rem;
+    column-gap: 20px;
+    row-gap: 5px;
+  }
+
+  .skills h1 {
+    font-size: 20px;
+  }
+}

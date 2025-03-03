@@ -23,7 +23,6 @@
   text-align: center;
   justify-content: center;
   align-items: center;
-
   background: linear-gradient(to right, rgb(0, 183, 255) 4px, transparent 4px) 0
       0,
     linear-gradient(to right, rgb(255, 48, 255) 4px, transparent 4px) 0 100%,
@@ -52,4 +51,30 @@
 .nav-links a:hover {
   text-decoration: underline;
   color: rgb(0, 183, 255);
+}
+
+/* Mobile Device */
+@media screen and (max-width: 768px) {
+  .home-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .name h1 {
+    font-size: 30px;
+  }
+
+  .name {
+    width: 80%;
+  }
+
+  .nav-links {
+    font-size: 20px;
+    width: 50%;
+  }
+
+  .nav-links li,
+  .nav-links a {
+    margin: 2rem;
+  }
 }
