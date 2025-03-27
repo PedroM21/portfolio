@@ -4,6 +4,7 @@ import About from "../components/About";
 import RecentProjects from "../components/RecentProjects";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 function HomePage() {
   return (
@@ -18,6 +19,9 @@ function HomePage() {
 
       <div id="projects" className="project-section">
         <RecentProjects />
+        <Link to="/portfolio/ProjectsPage">
+          <button>More Projects</button>
+        </Link>
       </div>
 
       <div id="contact" className="contact-section">

@@ -53,6 +53,16 @@ ul {
 /* ======== Tablet Landscape ======== */
 @media (min-width: 1024px) {
   .landing-container {
+    width: 100%;
     flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .nav-links {
+    width: 20%;
+  }
+
+  .text-content {
+    width: 50%;
   }
 }
