@@ -1,0 +1,54 @@
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.skills-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  position: relative;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 250px;
+  height: 300px;
+  background-color: #07182e;
+}
+
+.skills-card ul {
+  list-style: none;
+}
+
+.skills-image {
+  width: 100px;
+  position: absolute;
+  top: 0;
+  background-color: rgb(6, 45, 97);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.skills-image img {
+  width: 50%;
+}
+
+/* ======== Tablet Landscape ======== */
+@media (min-width: 1024px) {
+  .skills-container {
+    flex-direction: row;
+  }
+}
+
+/* ======== Laptop ======== */
+@media (min-width: 1366px) {
+  .card-content {
+    width: 400px;
+  }
+}

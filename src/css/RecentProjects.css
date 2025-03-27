@@ -1,0 +1,64 @@
+.recent-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  gap: 60px;
+}
+
+.recent-projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.recent-details {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.showcase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 200px;
+  display: none;
+}
+
+.showcase img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.recent-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 12px;
+}
+
+.separator {
+  width: 95%;
+}
+
+.recent-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  padding: 0 12px;
+  text-align: left;
+}
+
+/* ======== Tablet Landscape ======== */
+@media (min-width: 1024px) {
+  .recent-details {
+    width: 50%;
+  }
+  .showcase {
+    display: block;
+  }
+}

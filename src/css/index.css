@@ -1,15 +1,61 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: "Poppins", sans-serif;
-}
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
 
-body {
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
   background-color: #000a17;
   opacity: 1;
   background-image: radial-gradient(#07182e 2px, transparent 2px),
     radial-gradient(#07182e 2px, #000a17 2px);
   background-size: 80px 80px;
   background-position: 0 0, 40px 40px;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* ======== Tablet Portrait ======== */
+@media (min-width: 768px) {
+  body {
+    min-width: 768px;
+  }
+}
+
+/* ======== Tablet Landscape ======== */
+@media (min-width: 1024px) {
+  body {
+    min-width: 1024px;
+  }
+}
+
+/* ======== Laptop ======== */
+@media (min-width: 1366px) {
+  body {
+    min-width: 1366px;
+  }
+}
+
+/* ======== Desktop ======== */
+@media (min-width: 1440px) {
+  body {
+    min-width: 1440px;
+  }
+}
+
+/* ======== Desktop Standard ======== */
+@media (min-width: 1920px) {
+  body {
+    max-width: 1920px;
+  }
 }

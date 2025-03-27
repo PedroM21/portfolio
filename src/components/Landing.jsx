@@ -1,11 +1,11 @@
-import "../css/Home.css";
+import "../css/Landing.css";
 
-function Home() {
+function Landing() {
   return (
-    <div className="home-container">
-      <div className="name">
+    <div className="landing-container">
+      <div className="text-content">
         <h1>Pedro Moreno</h1>
-        <p>Graduate from The University of Texas at San Antonio</p>
+        <p>Graduated from The University of Texas at San Antonio</p>
       </div>
       <div className="nav-links">
         <ul>
@@ -24,4 +24,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Landing;

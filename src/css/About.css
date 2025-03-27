@@ -1,66 +1,23 @@
-.about-header {
+.about-container {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.about-content {
+  display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
-  padding: 1rem;
+  text-align: left;
+  width: 60%;
+  margin: 0 auto;
 }
 
-.about-header h1 {
-  font-size: 4vw;
-}
-
-.about-header p {
-  font-size: 1.5vw;
-  padding: 2rem;
-}
-
-.about-me-container {
-  display: flex;
-  width: 100%;
-  padding: 2rem;
-}
-
-.about-me {
-  width: 50%;
-  color: white;
-  padding: 1rem;
-}
-
-.about-me h2 {
-  font-size: 2.5vw;
-}
-
-.about-me p {
-  font-size: 1.5vw;
-  overflow-wrap: break-word;
-}
-
-.about-me button {
-  margin-top: 2rem;
-  cursor: pointer;
-}
-
-.about-me button a {
-  color: white;
-  text-decoration: none;
-}
-
-.skills {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 50%;
-  padding: 1rem;
-  color: white;
-}
-
-.skills h2 {
-  font-size: 2.5vw;
-}
-
-.skills button {
-  width: auto;
-  margin: 1rem;
+/* ======== Tablet Landscape ======== */
+@media (min-width: 1024px) {
+  .about-container {
+    align-items: center;
+    justify-content: center;
+  }
 }
