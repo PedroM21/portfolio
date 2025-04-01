@@ -8,11 +8,20 @@ import eComSite from "../assets/e-com-site.gif";
 import goGames from "../assets/go-games.gif";
 import formValid from "../assets/FormValid.png";
 import roguesRiches from "../assets/RoguesRiches.png";
+import nuzTracker from "../assets/NuzLockeTracker.png";
 
 function ProjectsPage() {
   const projects = [
     {
       id: 1,
+      title: "Pokemon NuzLocke Tracker",
+      date: "April 2025",
+      desc: "The application assists users in managing their Pokémon Nuzlocke challenges by tracking their various runs and the Pokémon they catch during each playthrough.",
+      image: nuzTracker,
+      link: "https://github.com/PedroM21/Nuzlocke-Tracker",
+    },
+    {
+      id: 2,
       title: "Subscription Tracker",
       date: "March 2025",
       desc: "A subscription tracker that manages users and sends email reminders about renewal payments. Features JWT authentication, database modeling, secure API architecture, and automated workflows",
@@ -20,7 +29,7 @@ function ProjectsPage() {
       link: "https://github.com/PedroM21/subscription-tracker",
     },
     {
-      id: 2,
+      id: 3,
       title: "Arknights Planner",
       date: "February 2025",
       desc: "A planner for the mobile game Arknights. Allows the user to search up a unit and add them to their planner and view what materials they need to upgrade them.",
@@ -28,7 +37,7 @@ function ProjectsPage() {
       link: "https://github.com/PedroM21/arknights-planner",
     },
     {
-      id: 3,
+      id: 4,
       title: "Frontend E-commerce Site",
       date: "February 2025",
       desc: "An e-commerce site developed with basic HTML, CSS, and JavaScript. Features a price calculator at checkout, ability to add items to the shopping cart, and form validation.",
@@ -36,7 +45,7 @@ function ProjectsPage() {
       link: "https://github.com/PedroM21/E-Commerce-Site",
     },
     {
-      id: 4,
+      id: 5,
       title: "Pokemon Guessing Game",
       date: "January 2025",
       desc: "A simple guessing game for fans of the pokemon franchise. Players can guess the name of the pokemon and lose life upon wrong guess.",
@@ -44,7 +53,7 @@ function ProjectsPage() {
       link: "https://github.com/PedroM21/Pokemon-Guessing-Game",
     },
     {
-      id: 5,
+      id: 6,
       title: "Games Create with Go",
       date: "September 2024 - December 2024",
       desc: "Simple games created using go and raylib. Features games such as breakout, an asteroid game, 2 player fighting game, and Whisteker's Adeventure",
@@ -52,7 +61,7 @@ function ProjectsPage() {
       link: "https://github.com/PedroM21/Go-Games",
     },
     {
-      id: 6,
+      id: 7,
       title: "Form Validation",
       date: "February 2024 – May 2024",
       desc: "A dynamic web page with form validation. Features secure login/register functionality and data security by using ecryption protocols.",
@@ -60,7 +69,7 @@ function ProjectsPage() {
       link: "https://github.com/PedroM21/FormValidation",
     },
     {
-      id: 7,
+      id: 8,
       title: "Rogue's Riches",
       date: "November 2023",
       desc: "A game developed with C# in the game engine Unity. Features a gameloop where the player defeats waves of enemies, selects an item, and fights a boss. The player can choose to continue their run or end it.",

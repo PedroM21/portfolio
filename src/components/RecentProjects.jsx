@@ -1,12 +1,20 @@
 import "../css/RecentProjects.css";
 import subTracker from "../assets/subscription-tracker.jpg";
 import arkPlanner from "../assets/arknights-planner.png";
-import pkmGame from "../assets/pkmgg.gif";
+import nuzTracker from "../assets/NuzLockeTracker.png";
 
 function RecentProjects() {
   const recentProjects = [
     {
       id: 1,
+      title: "Pokemon NuzLocke Tracker",
+      date: "April 2025",
+      desc: "The application assists users in managing their Pokémon Nuzlocke challenges by tracking their various runs and the Pokémon they catch during each playthrough.",
+      image: nuzTracker,
+      link: "https://github.com/PedroM21/Nuzlocke-Tracker",
+    },
+    {
+      id: 2,
       title: "Subscription Tracker",
       date: "March 2025",
       desc: "A subscription tracker that manages users and sends email reminders about renewal payments. Features JWT authentication, database modeling, secure API architecture, and automated workflows",
@@ -14,20 +22,12 @@ function RecentProjects() {
       link: "https://github.com/PedroM21/subscription-tracker",
     },
     {
-      id: 2,
+      id: 3,
       title: "Arknights Planner",
       date: "February 2025",
       desc: "A planner for the mobile game Arknights. Allows the user to search up a unit and add them to their planner and view what materials they need to upgrade them.",
       image: arkPlanner,
       link: "https://github.com/PedroM21/arknights-planner",
-    },
-    {
-      id: 3,
-      title: "Pokemon Guessing Game",
-      date: "January 2025",
-      desc: "A simple guessing game for fans of the pokemon franchise. Players can guess the name of the pokemon and lose life upon wrong guess.",
-      image: pkmGame,
-      link: "https://github.com/PedroM21/Pokemon-Guessing-Game",
     },
   ];
 

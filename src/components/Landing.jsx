@@ -5,7 +5,7 @@ function Landing() {
     <div className="landing-container">
       <div className="text-content">
         <h1>Pedro Moreno</h1>
-        <p>Graduated from The University of Texas at San Antonio</p>
+        <p>Graduate from The University of Texas at San Antonio</p>
       </div>
       <div className="nav-links">
         <ul>
